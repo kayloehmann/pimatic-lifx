@@ -1,20 +1,20 @@
-{ "name": "pimatic-plugin-template",
-  "description": "The plugin description",
-  "author": "Your Name <you@example.com> (http://your-website)",
-  "main": "my-plugin",
+{ "name": "pimatic-lifx",
+  "description": "Pimatic Plugin to integrate Lifx devices",
+  "author": "Kay Löhmann <email@kayloehmann.de> (https://kayloehmann.de)",
+  "main": "pimatic-lifx",
   "files": [
-    "my-plugin.coffee",
+    "lifx.coffee",
     "README.md",
-    "my-plugin-config-schema.coffee"
+    "lifx-config-schema.coffee"
   ],
-  "version": "0.8.0",
-  "homepage": "http://your-plugin-website",
+  "version": "0.0.1",
+  "homepage": "https://github.com/kayloehmann/pimatic-lifx",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/pimatic/pimatic-plugin-template.git"
+    "url": "https://github.com/kayloehmann/pimatic-lifx.git"
   },
-  "configSchema": "my-plugin-config-schema.coffee",
+  "configSchema": "lifx-config-schema.coffee",
   "dependencies": {
   },
   "peerDependencies": {
