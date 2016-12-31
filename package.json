@@ -1,6 +1,12 @@
 { "name": "pimatic-lifx",
   "description": "Pimatic Plugin to integrate Lifx devices",
   "author": "Kay Löhmann <email@kayloehmann.de> (https://kayloehmann.de)",
+  "license": "MIT",
+  "keywords": [
+    "pimatic",
+    "SmartHome",
+    "Lifx"
+  ],
   "main": "pimatic-lifx",
   "files": [
     "lifx.coffee",
@@ -16,9 +22,10 @@
   },
   "configSchema": "lifx-config-schema.coffee",
   "dependencies": {
+	  "node-lifx": "0.7.0"
   },
   "peerDependencies": {
-    "pimatic": "0.8.*"
+    "pimatic": "0.9.11"
   },
   "engines": {
     "node": ">0.8.x",
